@@ -1,12 +1,21 @@
 import React from "react";
-import Potato from "./Potato";
-function App() {
-  return (
-    <div>
-      <h1>BYE</h1> 
-      <Potato />
-    </div>
-  );
+
+class App extends React.Component{
+  state ={
+    isLoading:true
+    moives: []
+  };
+  componentDidMount(){
+    setTimeout(() =>{  //delay function
+      this.setState({isLoading: false});
+    }, 6000);
+  }
+  render(){
+    const{isLoading} = this.state
+    return <div>
+      {isLoading ? "Loading":"We are ready"} 
+      </div>;
+  }
 }
 
 export default App;
