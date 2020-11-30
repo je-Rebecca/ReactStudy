@@ -2,5 +2,4 @@
 
 React JS Fundementals Course (2020 updated!)
 
-##function: 
-link the pages, movie api , reac-router-dom 
+detail : Using link the pages, movie api , reac-router-dom 
