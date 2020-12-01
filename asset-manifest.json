@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ReactStudy/static/css/main.cf9db61b.chunk.css",
-    "main.js": "/ReactStudy/static/js/main.0bdc2442.chunk.js",
-    "main.js.map": "/ReactStudy/static/js/main.0bdc2442.chunk.js.map",
+    "main.css": "/ReactStudy/static/css/main.e96a7262.chunk.css",
+    "main.js": "/ReactStudy/static/js/main.0730a690.chunk.js",
+    "main.js.map": "/ReactStudy/static/js/main.0730a690.chunk.js.map",
     "runtime-main.js": "/ReactStudy/static/js/runtime-main.cd9c69c1.js",
     "runtime-main.js.map": "/ReactStudy/static/js/runtime-main.cd9c69c1.js.map",
-    "static/js/2.10156d01.chunk.js": "/ReactStudy/static/js/2.10156d01.chunk.js",
-    "static/js/2.10156d01.chunk.js.map": "/ReactStudy/static/js/2.10156d01.chunk.js.map",
+    "static/js/2.7eecb8df.chunk.js": "/ReactStudy/static/js/2.7eecb8df.chunk.js",
+    "static/js/2.7eecb8df.chunk.js.map": "/ReactStudy/static/js/2.7eecb8df.chunk.js.map",
     "index.html": "/ReactStudy/index.html",
-    "static/css/main.cf9db61b.chunk.css.map": "/ReactStudy/static/css/main.cf9db61b.chunk.css.map",
-    "static/js/2.10156d01.chunk.js.LICENSE.txt": "/ReactStudy/static/js/2.10156d01.chunk.js.LICENSE.txt"
+    "static/css/main.e96a7262.chunk.css.map": "/ReactStudy/static/css/main.e96a7262.chunk.css.map",
+    "static/js/2.7eecb8df.chunk.js.LICENSE.txt": "/ReactStudy/static/js/2.7eecb8df.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.cd9c69c1.js",
-    "static/js/2.10156d01.chunk.js",
-    "static/css/main.cf9db61b.chunk.css",
-    "static/js/main.0bdc2442.chunk.js"
+    "static/js/2.7eecb8df.chunk.js",
+    "static/css/main.e96a7262.chunk.css",
+    "static/js/main.0730a690.chunk.js"
   ]
 }
