@@ -1,21 +1,83 @@
-.movie{
+ /* .movies .movie {
+    background-color: white;
+    margin-bottom: 70px;
+    font-weight: 300;
+    padding: 20px;
+    border-radius: 5px;
+    color: #adaeb9;
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  }
+  
+  .movies .movie a {
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) 2fr;
+    grid-gap: 20px;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .movie img {
+    position: relative;
+    top: -50px;
+    max-width: 150px;
+    width: 100%;
+    margin-right: 30px;
+    box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+      0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
+  }
+  
+  .movie .mov_title,
+  .movie .mov_year {
+    margin: 0;
+    font-weight: 300;
+  }
+  
+  .movie .mov_title {
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #2c2c2c;
+  }
+  
+  .movie .genres {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0px;
+  }
+  
+  .genres li,
+  .movie .mov_year {
+    margin-right: 10px;
+    font-size: 14px;
+  }  */
+
+
+
+
+   .movies .movie{
     text-align: center;
     display: flex;
-    padding :20px;
+    padding :25px;
    border-radius: 10px;
    margin-bottom: 70px;
    justify-content: space-between;
    background-color: white;
-    box-shadow: gray 0px 0px 10px 2px;
-    margin: 50px 0;
+    box-shadow: gray 0px 2px 5px 1px;
+    margin: 30px 10px 10px 200px;
     color: inherit;
     align-items: flex-start;
 }
 
-.movies .movie a {
+.movie a {
     display: grid;
     grid-template-columns: minmax(150px, 1fr) 2fr;
     grid-gap: 20px;
+    text-decoration: none;
+    color: inherit;
+    
 }
 .movie_data{
     float: left;
@@ -23,23 +85,28 @@
     text-align: left;
     color:gray;
     font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
 }
-.mov_title{
-    text-align: center;
+.movie .mov_title{
     font-weight: bold;
     color: rgb(39, 36, 36);
     margin: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 24px;
 }
-.genres {
+.movie .genres {
     list-style-type: none;
     display: flex;
-    margin: 5px 0px;
-    /* flex-wrap: wrap; */
+    padding: 0;
+    margin: 0;
+    
+     
 }
-.genres > li {
+.movie .genres > li {
     padding-right :5px;
 }
-.movie_sum{
+.movie .movie_sum{
     width: 500px;
 }
 .movie img{
@@ -50,4 +117,5 @@
     margin-right: 30px;
     top:0px;
     max-width: 200px;
-} 
+    
+}   

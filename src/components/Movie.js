@@ -5,18 +5,19 @@ import {Link} from "react-router-dom";
 
 function Movie({id, year,title,summary,poster,genres}){
     return (
-    <Link to ={{
-        pathname: `/movie/${id}`,
-        state: {
-            year,
-            title,
-            genres,
-            summary,
-            poster
-        }
-    }}>    
-        <div className="movie">
-                <img src ={poster} alt={title} tilte={title} />
+    <div className="movie">
+        <Link to ={{
+            pathname: `/movie/${id}`,
+            state: {
+                year,
+                title,
+                genres,
+                summary,
+                poster
+            }
+        }}
+        >    
+            <img src ={poster} alt={title} tilte={title} />
             <div className ="movie_data">
                 <h3 className="mov_title">{title}</h3>
                 <h3 className="mov_year">{year}</h3>
@@ -25,10 +26,10 @@ function Movie({id, year,title,summary,poster,genres}){
                     <li key ={index} className ="genres_genre">{genre}</li> 
                     )}
                 </ul>
-                <p className="mov_sum">{summary.slice}</p>
+                <p className="mov_sum">{summary.slice(0,180)}</p>
             </div>
-        </div>
-    </Link>
+        </Link>
+     </div>
     );
 }
 
